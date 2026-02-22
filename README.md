@@ -127,7 +127,7 @@ python test.py --beam_width 3 --samples 500
 
 ## 📊 Training Progress
 
-The model has been trained for **30 epochs total** (24 + 6 + 6) as noted in log.txt. Recent loss values:
+The model has been trained for **36 epochs total** (24 + 6 + 6) as noted in log.txt. Recent loss values:
 
 | Epoch | Loss |
 |---|---|
