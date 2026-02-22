@@ -1,0 +1,61 @@
+Using device: cuda
+Configuration: Epochs=6, Batch=256, LR=0.0005
+Loading existing dataset from processed_data.csv...
+Loading tokenizer from gujarati_bpe_6k.json...
+
+--- Skipping Search: Using provided seed 1 ---
+
+--- Starting Full Training (Seed 1) ---
+Loading model weights from best_sentence_model.pt...
+Total Trainable Parameters: 4086272
+(already done 30 epochs, first 24, then 6, and now 6)
+Epoch 1/6 | Loss: 1.3447 | Time: 2350.5s
+  → Saved Best Model
+Epoch 2/6 | Loss: 1.3427 | Time: 2348.9s
+  → Saved Best Model
+Epoch 3/6 | Loss: 1.3411 | Time: 2350.6s
+  → Saved Best Model
+Epoch 4/6 | Loss: 1.3396 | Time: 2350.3s
+  → Saved Best Model
+Epoch 5/6 | Loss: 1.3383 | Time: 2349.9s
+  → Saved Best Model
+Epoch 6/6 | Loss: 1.3374 | Time: 2350.4s
+  → Saved Best Model
+
+--- Final Test ---
+Input:  હું કાલે સ્કુલ જાવુ છું
+Output: હું કાલે સ્કુલ જાવુ છું
+Input:  આજે મેં પાણી પીધુ
+Output: આજે મેં પાણી પીધુ
+Input:  તમે કેમ છો
+Output: તમે કેમ છો
+Input:  સુરત ખુબ સુંદર સહેર છે
+Output: સુરત ખુબ સુંદર શહેર છે
+Input:  વીધ્યાથીઓ અભ્યાસ કરે છે
+Output: વિદ્યાથીઓ અભ્યાસ કરે છે
+Input:  પાની પીવુ જરૂરી છે
+Output: પાણી પીવુ જરૂરી છે
+Input:  પરવાસમાં મજા આવી
+Output: પ્રવાસમાં મજા આવી
+Input:  પરિક્ષાનું પરીણામ આવ્યું
+Output: પરિક્ષાનું પરિણામ આવ્યું
+Input:  વિગ્યાનનો વિષય અઘરો છે
+Output: વિજ્ઞાનનો વિષય અઘરો છે
+Input:  હુ ત્યા નથી જવાનો
+Output: હુ થયા નથી જવાનો
+Input:  પુસતક ટેબલ પર છે
+Output: પુસ્તક ટેબલ પર છે
+Input:  પેસા અગત્યના છે
+Output: પૈસા અગત્યના છે
+Input:  ફલ અને શાકભાજી ખાઓ
+Output: ફલ અને શાકભાજી ખાઓ
+Input:  શરદ્ધા અને વિશ્વાસ રાખો
+Output: શ્રદ્ધા અને વિશ્વાસ રાખો
+Input:  ગૂજરાત મારો દેસ છે
+Output: ગુજરાત મારો દેશ છે
+Input:  શું તમેં તૈયાર છો
+Output: શું તમે તૈયાર છો
+Input:  આશચર્ય થયું
+Output: આશ્ચર્ય થયું
+Input:  ભહુ મહૈનત કરી
+Output: બહુ મહેનત કરી
